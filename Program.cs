@@ -11,8 +11,9 @@ namespace LogicalPrograms
         {
             //ReverseNumber.PrintTheReverseNumber();
 
-            FibonacciSeries.PrintingFibonacci();
+            //FibonacciSeries.PrintingFibonacci();
 
+            PerfectNumber.FindingPerfectNumber();
            
         }
     }
