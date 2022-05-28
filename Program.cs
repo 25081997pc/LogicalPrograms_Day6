@@ -1,11 +1,19 @@
-﻿namespace LogicalPrograms
+﻿using System;
+using System.Threading;
+using System.Diagnostics;
+
+
+namespace LogicalPrograms
 {
     class Program
     {
-        public static void Main(string[] args)
+        static void Main(string[] args)
         {
-            ReverseNumber.PrintTheReverseNumber();
+            //ReverseNumber.PrintTheReverseNumber();
 
+            FibonacciSeries.PrintingFibonacci();
+
+           
         }
     }
 }
